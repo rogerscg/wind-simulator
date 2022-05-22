@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#connect-button {
+  margin-bottom: 15px;
+  padding: 5px 10px;
+}
