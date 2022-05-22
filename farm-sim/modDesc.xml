@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="53">
+	<author>Greg Rogers</author>
+	<version>1.0.0</version>
+	<title>
+		<en>Wind Simulator</en>
+	</title>
+	<description>
+		<en>
+			Mod that integrates with Wind Simulator.
+		</en>
+	</description>
+	<multiplayer supported="true" />
+	<iconFilename>icon.png</iconFilename>
+
+	<extraSourceFiles>
+    <sourceFile filename="debug.lua" />
+		<sourceFile filename="main.lua" />
+	</extraSourceFiles>
+</modDesc>
