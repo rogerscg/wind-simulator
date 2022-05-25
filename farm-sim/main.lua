@@ -1,3 +1,5 @@
+windSimulatorUsb = require 'windSimulatorUsb'
+
 --source is used for telling the giants engine to import these files, it is sort of equivalent to when you would use the lua function "require"
 local directory = g_currentModDirectory
 local modName = g_currentModName
@@ -61,6 +63,7 @@ function WindSimulator:onUpdate(dt, isActiveForInput, isSelected)
   end
   --Update wind speed.
   FS_Debug.info("vehicleSpeed" .. WindSimulator.vehicle:getLastSpeed())
+	windSimulatorUsb.transmitSpeed(WindSimulator.vehicle:getLastSpeed())
 end
 
 --#######################################################################################
